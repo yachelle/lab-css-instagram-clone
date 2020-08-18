@@ -42,9 +42,11 @@ button {
   left: 64%;
   transform: translate(-50%, -50%);
 }
+
 .content h2 {
   color: #06365f;
 }
+
 .stores {
   padding-top: 40px;
 }
