@@ -12,6 +12,10 @@ body {
   background: linear-gradient(180deg, #1c5380 50%, lightgray 50%);
 }
 
+
+
+/* Footer */
+
 #footer-nav {
   display: flex;
   justify-content: space-evenly;
