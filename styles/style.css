@@ -23,18 +23,26 @@ button {
   font-size: 16px;
 }
 
-.brands {
+.container {
   display: flex;
-  align-items: center;
-  justify-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.container {
-  width: 30%;
-  background: url('/images/frame.png') no-repeat ;
-  box-sizing: border-box;
-  padding: 20px;
+.stack-phones {
+  display: flex;
+  justify-content: flex-end;
 }
+
+.showcase {
+  display: block;
+}
+
+.login {
+  
+}
+
+
 
  /* Footer */
 
