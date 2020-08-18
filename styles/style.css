@@ -45,17 +45,14 @@ button {
   align-content: flex-end;
   padding-bottom: 85px;
 }
-
 #footer-nav li {
   list-style: none;
 }
-
 .links {
   font-weight: 700;
   color: #06365f;
   text-decoration: none;
 }
-
 .copyright {
   color: rgb(129, 127, 127);
   font-weight: 700;
