@@ -9,4 +9,12 @@ body {
   margin: 0;
 }
 
+#footer-nav {
+  display: flex;
+}
 
+#footer-nav li {
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+}
