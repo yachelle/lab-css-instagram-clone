@@ -9,7 +9,6 @@ body {
   height: 100%;
   background: linear-gradient(180deg, #1c5380 50%, lightgray 50%);
 }
-
 button {
   background-image: linear-gradient(#326d9b, #1c5380); 
   border: none;
@@ -21,17 +20,35 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 20px;
 }
-
 .container {
-  width: 30%;
-  background: url('/images/frame.png') no-repeat ;
-  box-sizing: border-box;
-  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 200px;
 }
-
+.showcase {
+  display: block;
+  padding-left: 40px;
+}
+.brand-logo {
+  display: inline-flex;
+  margin: ;
+}
+.content {
+  position: absolute;
+  top: 67%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
+.content h2 {
+  color: #06365f;
+}
+.stores {
+  padding-top: 40px;
+}
  /* Footer */
-
 #footer-nav {
   display: flex;
   justify-content: space-evenly;
@@ -51,3 +68,8 @@ button {
   color: rgb(129, 127, 127);
   font-weight: 700;
 }
+
+
+
+
+
