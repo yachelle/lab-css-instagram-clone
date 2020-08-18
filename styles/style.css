@@ -21,28 +21,40 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 20px;
 }
 
 .container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-.stack-phones {
-  display: flex;
-  justify-content: flex-end;
+  padding: 200px;
 }
 
 .showcase {
   display: block;
+  padding-left: 40px;
 }
 
-.login {
-  
+.brand-logo {
+  display: inline-flex;
+  margin: ;
 }
 
+.content {
+  position: absolute;
+  top: 67%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
 
+.content h2 {
+  color: #06365f;
+}
+
+.stores {
+  padding-top: 40px;
+}
 
  /* Footer */
 
